@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myhelloworldstuff-deployments
+  labels:
+    env: EKScluster
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      env: EKScluster
+  template:
+    metadata:
+      labels:
+        env: EKScluster
+    spec:
+      containers:
+      - name: myhelloworldstuff
+        image: 29062000123456/my_hello_world
+        ports:
+        - containerPort: 80

@@ -1,0 +1,1 @@
+aws cloudformation create-stack  --stack-name CapstoneProjectServer --region us-east-1 --template-body file://Servers.yml  --parameters file://Servers-parameters.json --capabilities CAPABILITY_NAMED_IAM

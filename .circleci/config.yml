@@ -69,6 +69,6 @@ jobs:
 workflows:
   default:
     jobs:
-      - build-docker-image
+      - setup-image-of-docker
       - deploy-docker-image:
-          requires: [build-docker-image]   
+          requires: [setup-image-of-docker]

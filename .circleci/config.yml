@@ -46,7 +46,7 @@ jobs:
             aws configure set region $REGION
             aws --version
       - run:
-          name: install kubectl and deploy
+          name: install kubectl and deploy test
           command: |          
             curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/linux/amd64/kubectl
             chmod +x ./kubectl

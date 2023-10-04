@@ -43,4 +43,7 @@ PART 2 - CircleCI CI/CD will deploy my application automatically using the follo
     + Build the project successfully in the beginning. 
     + Ater that, setup the active application can then be verified using my cluster endpoint.
 
+URL : http://aa739d19d2bdd4968a7df7f57bc037c1-1482864363.us-east-1.elb.amazonaws.com/
+Link to github
+https://github.com/khoatcao/Capstone-project
 
